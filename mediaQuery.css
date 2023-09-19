@@ -1,0 +1,179 @@
+@media screen and (max-width: 900px) {
+    .logo{
+        display: none;
+    }
+    nav{
+        overflow: initial;
+    }
+    .navbar {
+        position: absolute;
+        background-color: #1b1a1efc;
+        border-radius: 20px;
+        left: -100%;
+        top: 100%;
+        width: 40%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-block: 80px;
+        z-index: 100;
+    }
+
+    .navbar ul li a {
+        color: white;
+    }
+
+    nav ul li a:hover{
+        color: #9c9a9a;
+        transition: 0.7s;
+    }
+    
+    .navbar.active {
+        left: 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .toggle-button {
+        display: block;
+        margin-right: 60px;
+        color: white;
+        background-color:#302f2fc9;
+        font-size: 1.2rem;
+    }
+    .left h1{
+        font-size: 2.5rem;
+    }
+    #element{
+       font-size:2.5rem;
+    }
+    .right{
+        width: 27%;
+    }
+    .my_img{
+        border:2px solid red;
+        height: 205px;
+        width: 205px;
+        border-radius: 50%;
+    }
+    .my_img img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .main{
+        width: 100%;
+    }
+    .main_hero{
+        display:grid;
+        padding: 2% 10%;
+    }
+    #element,
+    .left h1{
+        font-size: 3rem;
+    }
+    .icons{
+        margin-left: 20%;
+    }
+    .my_img{
+        height: 295px;
+        width: 295px;
+    }
+    .my_img img{
+        height: 290px;
+        width: 290px;
+    }
+    .service-box{
+        margin-top: 6%;
+        display: grid;
+        grid-template-columns:70%;
+        gap: 5%;
+        margin-left: 30%;
+    }
+    .boxes{
+        height: 60vh;
+    }
+    .project-box{
+        display:grid;
+        margin-left: 10%;
+    }
+    .box{
+        display: grid;
+    }
+    .box img{
+        width: 100%;
+    }
+    .para{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .field{
+        width: 30rem;
+    }
+    .submit-btn{
+        width: 30rem;
+    }
+}
+
+@media screen  and (max-width:580px){
+    #element,
+    .left h1{
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:410px) {
+    .main_hero{
+        padding: 10% 10%;
+    }
+    #element,
+    .left h1{
+        font-size: 1.6rem;
+    }
+    .icons{
+        margin-left: 5%;
+    }
+    .my_img{
+        height: 275px;
+        width: 275px;
+    }
+    .my_img img{
+        height: 270px;
+        width: 270px;
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns: 80%;
+        margin-left: 10%;
+    }
+    .boxes{
+        width: 120%;
+        height: 70vh;
+    }
+    .project-box{
+        margin-left: 5%;
+    }
+    .para p{
+        margin-top: 15%;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .field{
+        width: 19rem;
+    }
+    .submit-btn{
+        width: 15rem;
+        font-size: 2rem;
+        height: 7vh;
+    }
+}
