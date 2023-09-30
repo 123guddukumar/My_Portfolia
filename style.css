@@ -55,7 +55,7 @@ nav ul li a:hover{
 .logo{
     color: #fff;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
     letter-spacing: 2px;
