@@ -181,12 +181,21 @@ nav ul li a:hover{
     font-weight: 600;
     text-transform: uppercase;
 }
+.about p{
+    color: rgb(227, 223, 216);
+    font-size: 1.3rem;
+    letter-spacing: 2.3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 5px 30px;
+}
 .intro{
-    color: rgb(179, 176, 176);
+    color: wheat;
     font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px 0px;
+    margin-top: 50px;
+    padding: 10px 25px;
 }
 .service{
     display: flex;
